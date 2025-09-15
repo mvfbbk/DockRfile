@@ -24,7 +24,7 @@ RUN gpg --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC7
         libtiff5-dev \
         libjpeg-dev \
         r-base && \
-    apt-get clea
+    apt-get clean
 
 COPY Install_packages.R install_packages.R
     
